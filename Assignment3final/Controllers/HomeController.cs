@@ -26,5 +26,11 @@ namespace Assignment3final.Controllers
 
             return View();
         }
+        public ActionResult Table()
+        {
+            ViewBag.Message = "Your Tables page.";
+
+            return View();
+        }
     }
 }
